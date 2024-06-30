@@ -1,6 +1,6 @@
 const InputBox = ({ title, placeholder, value, onChange }) => {
   return (
-    <div className="p-4 space-y-2">
+    <div className="max-sm:px-0 p-4 space-y-2 max-sm:text-xs">
       <h2>{title}</h2>
       <div className="relative">
         <input

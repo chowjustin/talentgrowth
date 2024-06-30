@@ -70,13 +70,13 @@ const ArrayManipulation = () => {
           </button>
         </div>
         <div className="mt-4">
-          <h3 className="text-lg">
+          <h3 className="text-lg max-sm:text-sm">
             Pairs that sum to{" "}
             <span className="text-purple-600 font-bold">{targetSum}</span>:
           </h3>
           <ul>
             {pairs.map((pair, index) => (
-              <li key={index}>
+              <li key={index} className="max-sm:text-xs">
                 {pair[0]} + {pair[1]}
               </li>
             ))}
