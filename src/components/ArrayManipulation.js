@@ -36,7 +36,10 @@ const ArrayManipulation = () => {
           <h1 className="text-4xl max-xl:text-xl font-bold md:mb-6 text-purple-600 max-sm:text-lg">
             Array Manipulation
           </h1>
-          <Link to="/" className="text-sm max-lg:text-xs max-md:mb-3">
+          <Link
+            to="/"
+            className="text-sm max-lg:text-xs max-md:mb-3 hover:text-purple-800 duration-300"
+          >
             Back to home
           </Link>
         </div>
