@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaGithub } from "react-icons/fa";
 
 const Home = () => {
   const styles = {
@@ -21,7 +22,7 @@ const Home = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-purple-100 font-poppins text-gray-900">
+    <div className="flex relative flex-col items-center justify-center min-h-screen bg-purple-100 font-poppins text-gray-900">
       <style>{styles.keyframes}</style>
       <h1
         className="text-4xl font-bold mb-6 text-purple-600 max-sm:text-2xl text-center"
@@ -52,6 +53,13 @@ const Home = () => {
           String Anagram Detection
         </Link>
       </div>
+      <Link
+        to="https://github.com/chowjustin/talentgrowth"
+        className="text-purple-500 text-4xl absolute bottom-6 hover:text-purple-700 duration-300"
+        target="blank"
+      >
+        <FaGithub />
+      </Link>
     </div>
   );
 };
